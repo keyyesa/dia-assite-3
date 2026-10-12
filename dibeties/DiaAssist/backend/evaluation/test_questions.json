@@ -1,0 +1,383 @@
+[
+ {
+  "question": "What HbA1c level indicates diabetes according to clinical guidelines?",
+  "expected_keywords": [
+   "HbA1c",
+   "6.5"
+  ],
+  "topic": "core"
+ },
+ {
+  "question": "What fasting blood glucose level is considered prediabetes?",
+  "expected_keywords": [
+   "fasting",
+   "100",
+   "125"
+  ],
+  "topic": "core"
+ },
+ {
+  "question": "What lifestyle changes are recommended for managing type 2 diabetes?",
+  "expected_keywords": [
+   "physical activity",
+   "diet",
+   "weight"
+  ],
+  "topic": "core"
+ },
+ {
+  "question": "What is a reasonable target HbA1c for most adults with diabetes?",
+  "expected_keywords": [
+   "7",
+   "HbA1c"
+  ],
+  "topic": "core"
+ },
+ {
+  "question": "What complications can result from poorly controlled diabetes?",
+  "expected_keywords": [
+   "retinopathy",
+   "nephropathy",
+   "neuropathy",
+   "cardiovascular"
+  ],
+  "topic": "core"
+ },
+ {
+  "question": "How often should HbA1c be tested to monitor glycemic control?",
+  "expected_keywords": [
+   "3",
+   "6",
+   "months"
+  ],
+  "topic": "core"
+ },
+ {
+  "question": "What does elevated urine albumin indicate in a diabetes patient?",
+  "expected_keywords": [
+   "kidney",
+   "albumin",
+   "microalbuminuria"
+  ],
+  "topic": "core"
+ },
+ {
+  "question": "What is often recommended as the first pharmacologic agent for type 2 diabetes?",
+  "expected_keywords": [
+   "metformin"
+  ],
+  "topic": "core"
+ },
+ {
+  "question": "What 2-hour OGTT glucose value indicates diabetes?",
+  "expected_keywords": [
+   "OGTT",
+   "200"
+  ],
+  "topic": "diagnosis"
+ },
+ {
+  "question": "What fasting plasma glucose level diagnoses diabetes?",
+  "expected_keywords": [
+   "fasting",
+   "126"
+  ],
+  "topic": "diagnosis"
+ },
+ {
+  "question": "What HbA1c range is considered prediabetes?",
+  "expected_keywords": [
+   "5.7",
+   "6.4"
+  ],
+  "topic": "diagnosis"
+ },
+ {
+  "question": "What symptoms of hyperglycemia should prompt testing for diabetes?",
+  "expected_keywords": [
+   "thirst",
+   "urination"
+  ],
+  "topic": "diagnosis"
+ },
+ {
+  "question": "Which people should be screened for type 2 diabetes?",
+  "expected_keywords": [
+   "screening",
+   "overweight"
+  ],
+  "topic": "diagnosis"
+ },
+ {
+  "question": "What blood pressure target is recommended for people with diabetes?",
+  "expected_keywords": [
+   "blood pressure",
+   "130"
+  ],
+  "topic": "goals"
+ },
+ {
+  "question": "What is the recommended LDL cholesterol management for adults with diabetes?",
+  "expected_keywords": [
+   "statin",
+   "LDL"
+  ],
+  "topic": "goals"
+ },
+ {
+  "question": "What time in range target is recommended for continuous glucose monitoring?",
+  "expected_keywords": [
+   "time in range",
+   "70"
+  ],
+  "topic": "goals"
+ },
+ {
+  "question": "What preprandial capillary glucose target is recommended?",
+  "expected_keywords": [
+   "80",
+   "130"
+  ],
+  "topic": "goals"
+ },
+ {
+  "question": "How often should people with type 2 diabetes have a dilated eye examination?",
+  "expected_keywords": [
+   "retinopathy",
+   "eye"
+  ],
+  "topic": "complications"
+ },
+ {
+  "question": "How is diabetic kidney disease screened for?",
+  "expected_keywords": [
+   "albumin",
+   "eGFR"
+  ],
+  "topic": "complications"
+ },
+ {
+  "question": "What does a comprehensive foot examination in diabetes include?",
+  "expected_keywords": [
+   "foot",
+   "neuropathy"
+  ],
+  "topic": "complications"
+ },
+ {
+  "question": "What is diabetic ketoacidosis?",
+  "expected_keywords": [
+   "ketoacidosis",
+   "insulin"
+  ],
+  "topic": "complications"
+ },
+ {
+  "question": "What are the symptoms of peripheral neuropathy in diabetes?",
+  "expected_keywords": [
+   "numbness",
+   "neuropathy"
+  ],
+  "topic": "complications"
+ },
+ {
+  "question": "How does diabetes increase cardiovascular risk?",
+  "expected_keywords": [
+   "cardiovascular",
+   "risk"
+  ],
+  "topic": "complications"
+ },
+ {
+  "question": "How does metformin work and what are its common side effects?",
+  "expected_keywords": [
+   "metformin",
+   "gastrointestinal"
+  ],
+  "topic": "medication"
+ },
+ {
+  "question": "When are SGLT2 inhibitors recommended in type 2 diabetes?",
+  "expected_keywords": [
+   "SGLT2",
+   "heart"
+  ],
+  "topic": "medication"
+ },
+ {
+  "question": "What are GLP-1 receptor agonists used for in diabetes?",
+  "expected_keywords": [
+   "GLP-1",
+   "weight"
+  ],
+  "topic": "medication"
+ },
+ {
+  "question": "When should insulin therapy be started in type 2 diabetes?",
+  "expected_keywords": [
+   "insulin",
+   "A1C"
+  ],
+  "topic": "medication"
+ },
+ {
+  "question": "What are the main types of insulin?",
+  "expected_keywords": [
+   "rapid",
+   "basal"
+  ],
+  "topic": "medication"
+ },
+ {
+  "question": "What blood glucose level defines hypoglycemia?",
+  "expected_keywords": [
+   "70",
+   "hypoglycemia"
+  ],
+  "topic": "hypoglycemia"
+ },
+ {
+  "question": "How should mild hypoglycemia be treated?",
+  "expected_keywords": [
+   "15",
+   "carbohydrate"
+  ],
+  "topic": "hypoglycemia"
+ },
+ {
+  "question": "When is glucagon used?",
+  "expected_keywords": [
+   "glucagon",
+   "severe"
+  ],
+  "topic": "hypoglycemia"
+ },
+ {
+  "question": "How much physical activity is recommended for adults with diabetes?",
+  "expected_keywords": [
+   "150",
+   "minutes"
+  ],
+  "topic": "lifestyle"
+ },
+ {
+  "question": "What dietary pattern is recommended for people with diabetes?",
+  "expected_keywords": [
+   "nutrition",
+   "carbohydrate"
+  ],
+  "topic": "lifestyle"
+ },
+ {
+  "question": "How much weight loss benefits people with type 2 diabetes?",
+  "expected_keywords": [
+   "weight",
+   "5"
+  ],
+  "topic": "lifestyle"
+ },
+ {
+  "question": "What is the effect of smoking on diabetes?",
+  "expected_keywords": [
+   "smoking",
+   "cessation"
+  ],
+  "topic": "lifestyle"
+ },
+ {
+  "question": "Should people with diabetes limit alcohol?",
+  "expected_keywords": [
+   "alcohol",
+   "hypoglycemia"
+  ],
+  "topic": "lifestyle"
+ },
+ {
+  "question": "When is self-monitoring of blood glucose recommended?",
+  "expected_keywords": [
+   "self-monitoring",
+   "insulin"
+  ],
+  "topic": "monitoring"
+ },
+ {
+  "question": "What is continuous glucose monitoring?",
+  "expected_keywords": [
+   "continuous",
+   "glucose"
+  ],
+  "topic": "monitoring"
+ },
+ {
+  "question": "Why is HbA1c not reliable in some conditions?",
+  "expected_keywords": [
+   "anemia",
+   "HbA1c"
+  ],
+  "topic": "monitoring"
+ },
+ {
+  "question": "When is gestational diabetes screened during pregnancy?",
+  "expected_keywords": [
+   "24",
+   "28",
+   "weeks"
+  ],
+  "topic": "special"
+ },
+ {
+  "question": "How is type 1 diabetes different from type 2 diabetes?",
+  "expected_keywords": [
+   "autoimmune",
+   "insulin"
+  ],
+  "topic": "special"
+ },
+ {
+  "question": "What are the diabetes risks for older adults?",
+  "expected_keywords": [
+   "older",
+   "hypoglycemia"
+  ],
+  "topic": "special"
+ },
+ {
+  "question": "Which vaccines are recommended for people with diabetes?",
+  "expected_keywords": [
+   "vaccin",
+   "influenza"
+  ],
+  "topic": "special"
+ },
+ {
+  "question": "What is the global prevalence of diabetes according to WHO?",
+  "expected_keywords": [
+   "WHO",
+   "million"
+  ],
+  "topic": "special"
+ },
+ {
+  "question": "What is the role of diabetes self-management education?",
+  "expected_keywords": [
+   "education",
+   "self-management"
+  ],
+  "topic": "special"
+ },
+ {
+  "question": "How does diabetes affect the risk of infections?",
+  "expected_keywords": [
+   "infection"
+  ],
+  "topic": "special"
+ },
+ {
+  "question": "How should diabetes be managed during illness (sick days)?",
+  "expected_keywords": [
+   "illness",
+   "ketone"
+  ],
+  "topic": "special"
+ }
+]

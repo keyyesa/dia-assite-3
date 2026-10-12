@@ -1,0 +1,1194 @@
+[
+ {
+  "id": 1,
+  "text": "Laboratory Report - Sample 001\nDate: 2026-01-26\n\nRandom Glucose: 80 mg/dL\nSerum Creatinine: 1.7 mg/dL\nLDL: 202 mg/dL\nA1c: 5.5 %\nUrine Albumin: 716 mg/g\nTriglycerides: 368 mg/dL",
+  "truth": {
+   "RBG": {
+    "value": 80.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "Serum_Creatinine": {
+    "value": 1.7,
+    "class": "elevated"
+   },
+   "LDL": {
+    "value": 202.0,
+    "class": "high"
+   },
+   "HbA1c": {
+    "value": 5.5,
+    "class": "normal"
+   },
+   "Urine_Albumin": {
+    "value": 716.0,
+    "class": "macroalbuminuria"
+   },
+   "Triglycerides": {
+    "value": 368.0,
+    "class": "high"
+   }
+  }
+ },
+ {
+  "id": 2,
+  "text": "Laboratory Report - Sample 002\nDate: 2026-05-27\n\nA1c    7.7 %\nUrine Albumin/Creatinine Ratio (UACR)    754 mg/g\nFasting Blood Glucose (FBG)    88 mg/dL\nRandom Glucose    150 mg/dL\nCreatinine    3.4 mg/dL",
+  "truth": {
+   "HbA1c": {
+    "value": 7.7,
+    "class": "diabetes_range"
+   },
+   "Urine_Albumin": {
+    "value": 754.0,
+    "class": "macroalbuminuria"
+   },
+   "FBG": {
+    "value": 88.0,
+    "class": "normal"
+   },
+   "RBG": {
+    "value": 150.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "Serum_Creatinine": {
+    "value": 3.4,
+    "class": "elevated"
+   }
+  }
+ },
+ {
+  "id": 3,
+  "text": "Laboratory Report - Sample 003\nDate: 2026-06-24\n\nTriglycerides | 179 | mg/dL | < 150\nRandom Blood Glucose (RBG) | 137 | mg/dL | < 140\nHDL-C | 50 | mg/dL | > 40\nFBS | 104 | mg/dL | 70 - 99\nUrine Albumin/Creatinine Ratio (UACR) | 22 | mg/g | < 30\nLDL | 139 | mg/dL | < 100\nGlycated Haemoglobin (HbA1c) | 6.1 | % | 4.0 - 5.6\nCreatinine | 1.1 | mg/dL | 0.6 - 1.3",
+  "truth": {
+   "Triglycerides": {
+    "value": 179.0,
+    "class": "borderline"
+   },
+   "RBG": {
+    "value": 137.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "HDL": {
+    "value": 50.0,
+    "class": "acceptable"
+   },
+   "FBG": {
+    "value": 104.0,
+    "class": "prediabetes_range"
+   },
+   "Urine_Albumin": {
+    "value": 22.0,
+    "class": "normal"
+   },
+   "LDL": {
+    "value": 139.0,
+    "class": "borderline"
+   },
+   "HbA1c": {
+    "value": 6.1,
+    "class": "prediabetes_range"
+   },
+   "Serum_Creatinine": {
+    "value": 1.1,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 4,
+  "text": "Laboratory Report - Sample 004\nDate: 2026-08-21\n\nFasting Glucose | 4.9 | mmol/L | 70 - 99\nGlycated Haemoglobin (HbA1c) | 28 | mmol/mol | 4.0 - 5.6\nLDL-C | 2.20 | mmol/L | < 100\nRandom Glucose | 21.3 | mmol/L | < 140\nCreatinine | 62 | umol/L | 0.6 - 1.3\nTriglycerides | 3.22 | mmol/L | < 150\nUrine Albumin/Creatinine Ratio (UACR) | 247 | mg/g | < 30",
+  "truth": {
+   "FBG": {
+    "value": 89.0,
+    "class": "normal"
+   },
+   "HbA1c": {
+    "value": 4.7,
+    "class": "normal"
+   },
+   "LDL": {
+    "value": 85.0,
+    "class": "optimal"
+   },
+   "RBG": {
+    "value": 384.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "Serum_Creatinine": {
+    "value": 0.7,
+    "class": "normal"
+   },
+   "Triglycerides": {
+    "value": 285.0,
+    "class": "high"
+   },
+   "Urine_Albumin": {
+    "value": 247.0,
+    "class": "microalbuminuria"
+   }
+  }
+ },
+ {
+  "id": 5,
+  "text": "Laboratory Report - Sample 005\nDate: 2026-04-10\n\nLDL Cholesterol    3.78 mmol/L\nTriglycerides    1.89 mmol/L\nCreatinine    248 umol/L\nFBS    5.1 mmol/L\nUrine Albumin    765 mg/g\nA1c    45 mmol/mol\nRandom Glucose    15.7 mmol/L",
+  "truth": {
+   "LDL": {
+    "value": 146.0,
+    "class": "borderline"
+   },
+   "Triglycerides": {
+    "value": 167.0,
+    "class": "borderline"
+   },
+   "Serum_Creatinine": {
+    "value": 2.8,
+    "class": "elevated"
+   },
+   "FBG": {
+    "value": 91.0,
+    "class": "normal"
+   },
+   "Urine_Albumin": {
+    "value": 765.0,
+    "class": "macroalbuminuria"
+   },
+   "HbA1c": {
+    "value": 6.3,
+    "class": "prediabetes_range"
+   },
+   "RBG": {
+    "value": 283.0,
+    "class": "diabetes_range_if_symptomatic"
+   }
+  }
+ },
+ {
+  "id": 6,
+  "text": "Laboratory Report - Sample 006\nDate: 2026-04-24\n\nTriglycerides    0.88 mmol/L\nLDL Cholesterol    1.55 mmol/L\nSerum Creatinine    106 umol/L\nA1c    37 mmol/mol",
+  "truth": {
+   "Triglycerides": {
+    "value": 78.0,
+    "class": "normal"
+   },
+   "LDL": {
+    "value": 60.0,
+    "class": "optimal"
+   },
+   "Serum_Creatinine": {
+    "value": 1.2,
+    "class": "normal"
+   },
+   "HbA1c": {
+    "value": 5.5,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 7,
+  "text": "Laboratory Report - Sample 007\nDate: 2026-08-25\n\nRandom Blood Glucose (RBG): 266 mg/dL\nLDL: 85 mg/dL\nTriglycerides: 174 mg/dL\nHDL: 27 mg/dL\nUrine Albumin: 71 mg/g\nFBS: 181 mg/dL\nGlycated Haemoglobin (HbA1c): 5.3 %",
+  "truth": {
+   "RBG": {
+    "value": 266.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "LDL": {
+    "value": 85.0,
+    "class": "optimal"
+   },
+   "Triglycerides": {
+    "value": 174.0,
+    "class": "borderline"
+   },
+   "HDL": {
+    "value": 27.0,
+    "class": "low"
+   },
+   "Urine_Albumin": {
+    "value": 71.0,
+    "class": "microalbuminuria"
+   },
+   "FBG": {
+    "value": 181.0,
+    "class": "diabetes_range"
+   },
+   "HbA1c": {
+    "value": 5.3,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 8,
+  "text": "Laboratory Report - Sample 008\nDate: 2026-04-16\n\nLDL    207 mg/dL\nFasting Glucose    98 mg/dL\nRBS    256 mg/dL\nHDL    61 mg/dL\nTG    192 mg/dL\nSerum Creatinine    0.7 mg/dL\nHbA1c    5.9 %\nUrine Albumin    188 mg/g",
+  "truth": {
+   "LDL": {
+    "value": 207.0,
+    "class": "high"
+   },
+   "FBG": {
+    "value": 98.0,
+    "class": "normal"
+   },
+   "RBG": {
+    "value": 256.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "HDL": {
+    "value": 61.0,
+    "class": "acceptable"
+   },
+   "Triglycerides": {
+    "value": 192.0,
+    "class": "borderline"
+   },
+   "Serum_Creatinine": {
+    "value": 0.7,
+    "class": "normal"
+   },
+   "HbA1c": {
+    "value": 5.9,
+    "class": "prediabetes_range"
+   },
+   "Urine_Albumin": {
+    "value": 188.0,
+    "class": "microalbuminuria"
+   }
+  }
+ },
+ {
+  "id": 9,
+  "text": "Laboratory Report - Sample 009\nDate: 2026-07-20\n\nLDL 87 mg/dL (Ref: < 100)\nHDL 61 mg/dL (Ref: > 40)\nTriglycerides 124 mg/dL (Ref: < 150)\nA1c 4.5 % (Ref: 4.0 - 5.6)\nUrine Albumin 233 mg/g (Ref: < 30)\nFasting Glucose 271 mg/dL (Ref: 70 - 99)\nSerum Creatinine 1.9 mg/dL (Ref: 0.6 - 1.3)",
+  "truth": {
+   "LDL": {
+    "value": 87.0,
+    "class": "optimal"
+   },
+   "HDL": {
+    "value": 61.0,
+    "class": "acceptable"
+   },
+   "Triglycerides": {
+    "value": 124.0,
+    "class": "normal"
+   },
+   "HbA1c": {
+    "value": 4.5,
+    "class": "normal"
+   },
+   "Urine_Albumin": {
+    "value": 233.0,
+    "class": "microalbuminuria"
+   },
+   "FBG": {
+    "value": 271.0,
+    "class": "diabetes_range"
+   },
+   "Serum_Creatinine": {
+    "value": 1.9,
+    "class": "elevated"
+   }
+  }
+ },
+ {
+  "id": 10,
+  "text": "Laboratory Report - Sample 010\nDate: 2026-04-16\n\nGlycated Haemoglobin (HbA1c)    4.8 %\nHDL-C    34 mg/dL\nLDL Cholesterol    132 mg/dL\nTG    138 mg/dL",
+  "truth": {
+   "HbA1c": {
+    "value": 4.8,
+    "class": "normal"
+   },
+   "HDL": {
+    "value": 34.0,
+    "class": "low"
+   },
+   "LDL": {
+    "value": 132.0,
+    "class": "borderline"
+   },
+   "Triglycerides": {
+    "value": 138.0,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 11,
+  "text": "Laboratory Report - Sample 011\nDate: 2026-01-14\n\nHDL 27 mg/dL (Ref: > 40)\nTriglycerides 242 mg/dL (Ref: < 150)\nUrine Albumin/Creatinine Ratio (UACR) 202 mg/g (Ref: < 30)\nFasting Blood Glucose (FBG) 95 mg/dL (Ref: 70 - 99)\nLDL Cholesterol 67 mg/dL (Ref: < 100)\nRBS 136 mg/dL (Ref: < 140)\nHbA1c 5.3 % (Ref: 4.0 - 5.6)",
+  "truth": {
+   "HDL": {
+    "value": 27.0,
+    "class": "low"
+   },
+   "Triglycerides": {
+    "value": 242.0,
+    "class": "high"
+   },
+   "Urine_Albumin": {
+    "value": 202.0,
+    "class": "microalbuminuria"
+   },
+   "FBG": {
+    "value": 95.0,
+    "class": "normal"
+   },
+   "LDL": {
+    "value": 67.0,
+    "class": "optimal"
+   },
+   "RBG": {
+    "value": 136.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "HbA1c": {
+    "value": 5.3,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 12,
+  "text": "Laboratory Report - Sample 012\nDate: 2026-08-26\n\nLDL-C 84 mg/dL (Ref: < 100)\nUrine Albumin 927 mg/g (Ref: < 30)\nHDL Cholesterol 50 mg/dL (Ref: > 40)\nTriglycerides 173 mg/dL (Ref: < 150)\nFasting Blood Glucose (FBG) 171 mg/dL (Ref: 70 - 99)\nRandom Blood Glucose (RBG) 156 mg/dL (Ref: < 140)\nCreatinine 1.2 mg/dL (Ref: 0.6 - 1.3)",
+  "truth": {
+   "LDL": {
+    "value": 84.0,
+    "class": "optimal"
+   },
+   "Urine_Albumin": {
+    "value": 927.0,
+    "class": "macroalbuminuria"
+   },
+   "HDL": {
+    "value": 50.0,
+    "class": "acceptable"
+   },
+   "Triglycerides": {
+    "value": 173.0,
+    "class": "borderline"
+   },
+   "FBG": {
+    "value": 171.0,
+    "class": "diabetes_range"
+   },
+   "RBG": {
+    "value": 156.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "Serum_Creatinine": {
+    "value": 1.2,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 13,
+  "text": "Laboratory Report - Sample 013\nDate: 2026-03-17\n\nUrine Albumin/Creatinine Ratio (UACR) 21 mg/g (Ref: < 30)\nFasting Glucose 111 mg/dL (Ref: 70 - 99)\nCreatinine 1.7 mg/dL (Ref: 0.6 - 1.3)\nHDL-C 29 mg/dL (Ref: > 40)\nGlycated Haemoglobin (HbA1c) 6.2 % (Ref: 4.0 - 5.6)",
+  "truth": {
+   "Urine_Albumin": {
+    "value": 21.0,
+    "class": "normal"
+   },
+   "FBG": {
+    "value": 111.0,
+    "class": "prediabetes_range"
+   },
+   "Serum_Creatinine": {
+    "value": 1.7,
+    "class": "elevated"
+   },
+   "HDL": {
+    "value": 29.0,
+    "class": "low"
+   },
+   "HbA1c": {
+    "value": 6.2,
+    "class": "prediabetes_range"
+   }
+  }
+ },
+ {
+  "id": 14,
+  "text": "Laboratory Report - Sample 014\nDate: 2026-01-15\n\nUrine Albumin/Creatinine Ratio (UACR): 220 mg/g\nTG: 4.87 mmol/L\nA1c: 41 mmol/mol\nLDL-C: 5.38 mmol/L\nFBS: 4.6 mmol/L\nHDL Cholesterol: 0.78 mmol/L",
+  "truth": {
+   "Urine_Albumin": {
+    "value": 220.0,
+    "class": "microalbuminuria"
+   },
+   "Triglycerides": {
+    "value": 431.0,
+    "class": "high"
+   },
+   "HbA1c": {
+    "value": 5.9,
+    "class": "prediabetes_range"
+   },
+   "LDL": {
+    "value": 208.0,
+    "class": "high"
+   },
+   "FBG": {
+    "value": 82.0,
+    "class": "normal"
+   },
+   "HDL": {
+    "value": 30.0,
+    "class": "low"
+   }
+  }
+ },
+ {
+  "id": 15,
+  "text": "Laboratory Report - Sample 015\nDate: 2026-02-24\n\nA1c    30 mmol/mol\nLDL-C    3.88 mmol/L\nTriglycerides    2.77 mmol/L\nRandom Glucose    10.6 mmol/L\nHDL-C    0.70 mmol/L\nUrine Albumin    527 mg/g",
+  "truth": {
+   "HbA1c": {
+    "value": 4.9,
+    "class": "normal"
+   },
+   "LDL": {
+    "value": 150.0,
+    "class": "borderline"
+   },
+   "Triglycerides": {
+    "value": 245.0,
+    "class": "high"
+   },
+   "RBG": {
+    "value": 191.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "HDL": {
+    "value": 27.0,
+    "class": "low"
+   },
+   "Urine_Albumin": {
+    "value": 527.0,
+    "class": "macroalbuminuria"
+   }
+  }
+ },
+ {
+  "id": 16,
+  "text": "Laboratory Report - Sample 016\nDate: 2026-01-10\n\nTriglycerides: 125 mg/dL\nUrine Albumin/Creatinine Ratio (UACR): 643 mg/g\nLDL: 82 mg/dL\nFBS: 116 mg/dL\nRandom Glucose: 394 mg/dL\nHDL-C: 37 mg/dL",
+  "truth": {
+   "Triglycerides": {
+    "value": 125.0,
+    "class": "normal"
+   },
+   "Urine_Albumin": {
+    "value": 643.0,
+    "class": "macroalbuminuria"
+   },
+   "LDL": {
+    "value": 82.0,
+    "class": "optimal"
+   },
+   "FBG": {
+    "value": 116.0,
+    "class": "prediabetes_range"
+   },
+   "RBG": {
+    "value": 394.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "HDL": {
+    "value": 37.0,
+    "class": "low"
+   }
+  }
+ },
+ {
+  "id": 17,
+  "text": "Laboratory Report - Sample 017\nDate: 2026-05-23\n\nRBS: 4.6 mmol/L\nCreatinine: 327 umol/L\nTG: 3.10 mmol/L\nHbA1c: 31 mmol/mol\nFasting Glucose: 6.2 mmol/L",
+  "truth": {
+   "RBG": {
+    "value": 83.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "Serum_Creatinine": {
+    "value": 3.7,
+    "class": "elevated"
+   },
+   "Triglycerides": {
+    "value": 275.0,
+    "class": "high"
+   },
+   "HbA1c": {
+    "value": 5.0,
+    "class": "normal"
+   },
+   "FBG": {
+    "value": 112.0,
+    "class": "prediabetes_range"
+   }
+  }
+ },
+ {
+  "id": 18,
+  "text": "Laboratory Report - Sample 018\nDate: 2026-01-20\n\nLDL-C    110 mg/dL\nUrine Albumin    766 mg/g\nRandom Blood Glucose (RBG)    87 mg/dL\nFasting Blood Glucose (FBG)    85 mg/dL\nGlycated Haemoglobin (HbA1c)    5.8 %\nHDL    26 mg/dL",
+  "truth": {
+   "LDL": {
+    "value": 110.0,
+    "class": "borderline"
+   },
+   "Urine_Albumin": {
+    "value": 766.0,
+    "class": "macroalbuminuria"
+   },
+   "RBG": {
+    "value": 87.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "FBG": {
+    "value": 85.0,
+    "class": "normal"
+   },
+   "HbA1c": {
+    "value": 5.8,
+    "class": "prediabetes_range"
+   },
+   "HDL": {
+    "value": 26.0,
+    "class": "low"
+   }
+  }
+ },
+ {
+  "id": 19,
+  "text": "Laboratory Report - Sample 019\nDate: 2026-03-11\n\nHDL | 71 | mg/dL | > 40\nTriglycerides | 138 | mg/dL | < 150\nRandom Blood Glucose (RBG) | 86 | mg/dL | < 140\nSerum Creatinine | 1.0 | mg/dL | 0.6 - 1.3\nFBS | 120 | mg/dL | 70 - 99",
+  "truth": {
+   "HDL": {
+    "value": 71.0,
+    "class": "acceptable"
+   },
+   "Triglycerides": {
+    "value": 138.0,
+    "class": "normal"
+   },
+   "RBG": {
+    "value": 86.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "Serum_Creatinine": {
+    "value": 1.0,
+    "class": "normal"
+   },
+   "FBG": {
+    "value": 120.0,
+    "class": "prediabetes_range"
+   }
+  }
+ },
+ {
+  "id": 20,
+  "text": "Laboratory Report - Sample 020\nDate: 2026-08-12\n\nA1c 103 mmol/mol (Ref: 4.0 - 5.6)\nLDL Cholesterol 2.12 mmol/L (Ref: < 100)\nUrine Albumin/Creatinine Ratio (UACR) 821 mg/g (Ref: < 30)\nFasting Blood Glucose (FBG) 5.3 mmol/L (Ref: 70 - 99)",
+  "truth": {
+   "HbA1c": {
+    "value": 11.6,
+    "class": "diabetes_range"
+   },
+   "LDL": {
+    "value": 82.0,
+    "class": "optimal"
+   },
+   "Urine_Albumin": {
+    "value": 821.0,
+    "class": "macroalbuminuria"
+   },
+   "FBG": {
+    "value": 95.0,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 21,
+  "text": "Laboratory Report - Sample 021\nDate: 2026-05-11\n\nSerum Creatinine 53 umol/L (Ref: 0.6 - 1.3)\nLDL 3.05 mmol/L (Ref: < 100)\nHDL Cholesterol 1.73 mmol/L (Ref: > 40)\nTG 1.20 mmol/L (Ref: < 150)\nUrine Albumin 273 mg/g (Ref: < 30)",
+  "truth": {
+   "Serum_Creatinine": {
+    "value": 0.6,
+    "class": "normal"
+   },
+   "LDL": {
+    "value": 118.0,
+    "class": "borderline"
+   },
+   "HDL": {
+    "value": 67.0,
+    "class": "acceptable"
+   },
+   "Triglycerides": {
+    "value": 106.0,
+    "class": "normal"
+   },
+   "Urine_Albumin": {
+    "value": 273.0,
+    "class": "microalbuminuria"
+   }
+  }
+ },
+ {
+  "id": 22,
+  "text": "Laboratory Report - Sample 022\nDate: 2026-02-27\n\nTriglycerides 93 mg/dL (Ref: < 150)\nRandom Glucose 209 mg/dL (Ref: < 140)\nLDL-C 88 mg/dL (Ref: < 100)\nUrine Albumin 130 mg/g (Ref: < 30)\nHDL Cholesterol 32 mg/dL (Ref: > 40)",
+  "truth": {
+   "Triglycerides": {
+    "value": 93.0,
+    "class": "normal"
+   },
+   "RBG": {
+    "value": 209.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "LDL": {
+    "value": 88.0,
+    "class": "optimal"
+   },
+   "Urine_Albumin": {
+    "value": 130.0,
+    "class": "microalbuminuria"
+   },
+   "HDL": {
+    "value": 32.0,
+    "class": "low"
+   }
+  }
+ },
+ {
+  "id": 23,
+  "text": "Laboratory Report - Sample 023\nDate: 2026-08-22\n\nUrine Albumin/Creatinine Ratio (UACR) 8.0 mg/g (Ref: < 30)\nRBS 285 mg/dL (Ref: < 140)\nFasting Glucose 85 mg/dL (Ref: 70 - 99)\nTG 161 mg/dL (Ref: < 150)\nHDL-C 29 mg/dL (Ref: > 40)\nHbA1c 5.9 % (Ref: 4.0 - 5.6)\nLDL 167 mg/dL (Ref: < 100)\nSerum Creatinine 2.1 mg/dL (Ref: 0.6 - 1.3)",
+  "truth": {
+   "Urine_Albumin": {
+    "value": 8.0,
+    "class": "normal"
+   },
+   "RBG": {
+    "value": 285.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "FBG": {
+    "value": 85.0,
+    "class": "normal"
+   },
+   "Triglycerides": {
+    "value": 161.0,
+    "class": "borderline"
+   },
+   "HDL": {
+    "value": 29.0,
+    "class": "low"
+   },
+   "HbA1c": {
+    "value": 5.9,
+    "class": "prediabetes_range"
+   },
+   "LDL": {
+    "value": 167.0,
+    "class": "high"
+   },
+   "Serum_Creatinine": {
+    "value": 2.1,
+    "class": "elevated"
+   }
+  }
+ },
+ {
+  "id": 24,
+  "text": "Laboratory Report - Sample 024\nDate: 2026-01-19\n\nHDL-C: 0.72 mmol/L\nTriglycerides: 1.98 mmol/L\nUrine Albumin/Creatinine Ratio (UACR): 227 mg/g\nA1c: 36 mmol/mol\nRBS: 21.3 mmol/L\nFasting Blood Glucose (FBG): 9.2 mmol/L\nCreatinine: 106 umol/L",
+  "truth": {
+   "HDL": {
+    "value": 28.0,
+    "class": "low"
+   },
+   "Triglycerides": {
+    "value": 175.0,
+    "class": "borderline"
+   },
+   "Urine_Albumin": {
+    "value": 227.0,
+    "class": "microalbuminuria"
+   },
+   "HbA1c": {
+    "value": 5.4,
+    "class": "normal"
+   },
+   "RBG": {
+    "value": 383.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "FBG": {
+    "value": 165.0,
+    "class": "diabetes_range"
+   },
+   "Serum_Creatinine": {
+    "value": 1.2,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 25,
+  "text": "Laboratory Report - Sample 025\nDate: 2026-06-19\n\nRBS    256 mg/dL\nLDL    188 mg/dL\nTG    93 mg/dL\nSerum Creatinine    0.7 mg/dL\nGlycated Haemoglobin (HbA1c)    4.7 %\nHDL-C    30 mg/dL\nUrine Albumin    140 mg/g",
+  "truth": {
+   "RBG": {
+    "value": 256.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "LDL": {
+    "value": 188.0,
+    "class": "high"
+   },
+   "Triglycerides": {
+    "value": 93.0,
+    "class": "normal"
+   },
+   "Serum_Creatinine": {
+    "value": 0.7,
+    "class": "normal"
+   },
+   "HbA1c": {
+    "value": 4.7,
+    "class": "normal"
+   },
+   "HDL": {
+    "value": 30.0,
+    "class": "low"
+   },
+   "Urine_Albumin": {
+    "value": 140.0,
+    "class": "microalbuminuria"
+   }
+  }
+ },
+ {
+  "id": 26,
+  "text": "Laboratory Report - Sample 026\nDate: 2026-05-28\n\nFBS | 5.3 | mmol/L | 70 - 99\nTriglycerides | 1.93 | mmol/L | < 150\nRandom Blood Glucose (RBG) | 14.3 | mmol/L | < 140\nUrine Albumin/Creatinine Ratio (UACR) | 103 | mg/g | < 30\nA1c | 34 | mmol/mol | 4.0 - 5.6",
+  "truth": {
+   "FBG": {
+    "value": 96.0,
+    "class": "normal"
+   },
+   "Triglycerides": {
+    "value": 171.0,
+    "class": "borderline"
+   },
+   "RBG": {
+    "value": 258.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "Urine_Albumin": {
+    "value": 103.0,
+    "class": "microalbuminuria"
+   },
+   "HbA1c": {
+    "value": 5.3,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 27,
+  "text": "Laboratory Report - Sample 027\nDate: 2026-05-10\n\nFBS 77 mg/dL (Ref: 70 - 99)\nRandom Glucose 394 mg/dL (Ref: < 140)\nTG 75 mg/dL (Ref: < 150)\nSerum Creatinine 2.1 mg/dL (Ref: 0.6 - 1.3)\nUrine Albumin 8.0 mg/g (Ref: < 30)",
+  "truth": {
+   "FBG": {
+    "value": 77.0,
+    "class": "normal"
+   },
+   "RBG": {
+    "value": 394.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "Triglycerides": {
+    "value": 75.0,
+    "class": "normal"
+   },
+   "Serum_Creatinine": {
+    "value": 2.1,
+    "class": "elevated"
+   },
+   "Urine_Albumin": {
+    "value": 8.0,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 28,
+  "text": "Laboratory Report - Sample 028\nDate: 2026-05-26\n\nFasting Blood Glucose (FBG) | 204 | mg/dL | 70 - 99\nUrine Albumin | 7.0 | mg/g | < 30\nA1c | 6.0 | % | 4.0 - 5.6\nLDL-C | 60 | mg/dL | < 100\nTG | 167 | mg/dL | < 150\nHDL Cholesterol | 31 | mg/dL | > 40\nRandom Glucose | 79 | mg/dL | < 140",
+  "truth": {
+   "FBG": {
+    "value": 204.0,
+    "class": "diabetes_range"
+   },
+   "Urine_Albumin": {
+    "value": 7.0,
+    "class": "normal"
+   },
+   "HbA1c": {
+    "value": 6.0,
+    "class": "prediabetes_range"
+   },
+   "LDL": {
+    "value": 60.0,
+    "class": "optimal"
+   },
+   "Triglycerides": {
+    "value": 167.0,
+    "class": "borderline"
+   },
+   "HDL": {
+    "value": 31.0,
+    "class": "low"
+   },
+   "RBG": {
+    "value": 79.0,
+    "class": "below_diagnostic_threshold"
+   }
+  }
+ },
+ {
+  "id": 29,
+  "text": "Laboratory Report - Sample 029\nDate: 2026-07-21\n\nA1c | 31 | mmol/mol | 4.0 - 5.6\nTG | 2.07 | mmol/L | < 150\nFasting Blood Glucose (FBG) | 10.9 | mmol/L | 70 - 99\nSerum Creatinine | 292 | umol/L | 0.6 - 1.3\nUrine Albumin | 16.0 | mg/g | < 30\nHDL Cholesterol | 1.86 | mmol/L | > 40",
+  "truth": {
+   "HbA1c": {
+    "value": 5.0,
+    "class": "normal"
+   },
+   "Triglycerides": {
+    "value": 183.0,
+    "class": "borderline"
+   },
+   "FBG": {
+    "value": 197.0,
+    "class": "diabetes_range"
+   },
+   "Serum_Creatinine": {
+    "value": 3.3,
+    "class": "elevated"
+   },
+   "Urine_Albumin": {
+    "value": 16.0,
+    "class": "normal"
+   },
+   "HDL": {
+    "value": 72.0,
+    "class": "acceptable"
+   }
+  }
+ },
+ {
+  "id": 30,
+  "text": "Laboratory Report - Sample 030\nDate: 2026-04-25\n\nTriglycerides 191 mg/dL (Ref: < 150)\nFasting Glucose 155 mg/dL (Ref: 70 - 99)\nRBS 101 mg/dL (Ref: < 140)\nLDL 74 mg/dL (Ref: < 100)\nGlycated Haemoglobin (HbA1c) 4.7 % (Ref: 4.0 - 5.6)",
+  "truth": {
+   "Triglycerides": {
+    "value": 191.0,
+    "class": "borderline"
+   },
+   "FBG": {
+    "value": 155.0,
+    "class": "diabetes_range"
+   },
+   "RBG": {
+    "value": 101.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "LDL": {
+    "value": 74.0,
+    "class": "optimal"
+   },
+   "HbA1c": {
+    "value": 4.7,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 31,
+  "text": "Laboratory Report - Sample 031\nDate: 2026-07-21\n\nFasting Blood Glucose (FBG) 6.2 mmol/L (Ref: 70 - 99)\nHbA1c 27 mmol/mol (Ref: 4.0 - 5.6)\nTriglycerides 1.94 mmol/L (Ref: < 150)\nRandom Glucose 6.7 mmol/L (Ref: < 140)\nLDL 2.84 mmol/L (Ref: < 100)\nHDL 1.34 mmol/L (Ref: > 40)",
+  "truth": {
+   "FBG": {
+    "value": 112.0,
+    "class": "prediabetes_range"
+   },
+   "HbA1c": {
+    "value": 4.6,
+    "class": "normal"
+   },
+   "Triglycerides": {
+    "value": 172.0,
+    "class": "borderline"
+   },
+   "RBG": {
+    "value": 121.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "LDL": {
+    "value": 110.0,
+    "class": "borderline"
+   },
+   "HDL": {
+    "value": 52.0,
+    "class": "acceptable"
+   }
+  }
+ },
+ {
+  "id": 32,
+  "text": "Laboratory Report - Sample 032\nDate: 2026-07-11\n\nSerum Creatinine    1.6 mg/dL\nRBS    107 mg/dL\nHDL-C    36 mg/dL\nTriglycerides    166 mg/dL\nA1c    6.2 %\nLDL-C    150 mg/dL\nFBS    92 mg/dL",
+  "truth": {
+   "Serum_Creatinine": {
+    "value": 1.6,
+    "class": "elevated"
+   },
+   "RBG": {
+    "value": 107.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "HDL": {
+    "value": 36.0,
+    "class": "low"
+   },
+   "Triglycerides": {
+    "value": 166.0,
+    "class": "borderline"
+   },
+   "HbA1c": {
+    "value": 6.2,
+    "class": "prediabetes_range"
+   },
+   "LDL": {
+    "value": 150.0,
+    "class": "borderline"
+   },
+   "FBG": {
+    "value": 92.0,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 33,
+  "text": "Laboratory Report - Sample 033\nDate: 2026-08-22\n\nGlycated Haemoglobin (HbA1c) 6.3 % (Ref: 4.0 - 5.6)\nHDL Cholesterol 36 mg/dL (Ref: > 40)\nFBS 94 mg/dL (Ref: 70 - 99)\nTriglycerides 187 mg/dL (Ref: < 150)",
+  "truth": {
+   "HbA1c": {
+    "value": 6.3,
+    "class": "prediabetes_range"
+   },
+   "HDL": {
+    "value": 36.0,
+    "class": "low"
+   },
+   "FBG": {
+    "value": 94.0,
+    "class": "normal"
+   },
+   "Triglycerides": {
+    "value": 187.0,
+    "class": "borderline"
+   }
+  }
+ },
+ {
+  "id": 34,
+  "text": "Laboratory Report - Sample 034\nDate: 2026-04-23\n\nCreatinine 1.0 mg/dL (Ref: 0.6 - 1.3)\nRandom Glucose 237 mg/dL (Ref: < 140)\nHDL-C 37 mg/dL (Ref: > 40)\nTriglycerides 233 mg/dL (Ref: < 150)\nLDL 130 mg/dL (Ref: < 100)\nUrine Albumin 77 mg/g (Ref: < 30)\nA1c 6.1 % (Ref: 4.0 - 5.6)\nFBS 92 mg/dL (Ref: 70 - 99)",
+  "truth": {
+   "Serum_Creatinine": {
+    "value": 1.0,
+    "class": "normal"
+   },
+   "RBG": {
+    "value": 237.0,
+    "class": "diabetes_range_if_symptomatic"
+   },
+   "HDL": {
+    "value": 37.0,
+    "class": "low"
+   },
+   "Triglycerides": {
+    "value": 233.0,
+    "class": "high"
+   },
+   "LDL": {
+    "value": 130.0,
+    "class": "borderline"
+   },
+   "Urine_Albumin": {
+    "value": 77.0,
+    "class": "microalbuminuria"
+   },
+   "HbA1c": {
+    "value": 6.1,
+    "class": "prediabetes_range"
+   },
+   "FBG": {
+    "value": 92.0,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 35,
+  "text": "Laboratory Report - Sample 035\nDate: 2026-05-16\n\nUrine Albumin | 96 | mg/g | < 30\nRBS | 94 | mg/dL | < 140\nHDL-C | 29 | mg/dL | > 40\nTriglycerides | 194 | mg/dL | < 150",
+  "truth": {
+   "Urine_Albumin": {
+    "value": 96.0,
+    "class": "microalbuminuria"
+   },
+   "RBG": {
+    "value": 94.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "HDL": {
+    "value": 29.0,
+    "class": "low"
+   },
+   "Triglycerides": {
+    "value": 194.0,
+    "class": "borderline"
+   }
+  }
+ },
+ {
+  "id": 36,
+  "text": "Laboratory Report - Sample 036\nDate: 2026-04-24\n\nTG 158 mg/dL (Ref: < 150)\nHbA1c 4.6 % (Ref: 4.0 - 5.6)\nHDL-C 36 mg/dL (Ref: > 40)\nLDL-C 239 mg/dL (Ref: < 100)",
+  "truth": {
+   "Triglycerides": {
+    "value": 158.0,
+    "class": "borderline"
+   },
+   "HbA1c": {
+    "value": 4.6,
+    "class": "normal"
+   },
+   "HDL": {
+    "value": 36.0,
+    "class": "low"
+   },
+   "LDL": {
+    "value": 239.0,
+    "class": "high"
+   }
+  }
+ },
+ {
+  "id": 37,
+  "text": "Laboratory Report - Sample 037\nDate: 2026-03-11\n\nUrine Albumin: 27 mg/g\nHDL-C: 35 mg/dL\nLDL Cholesterol: 139 mg/dL\nHbA1c: 8.4 %\nTG: 130 mg/dL\nRandom Glucose: 125 mg/dL\nFBS: 224 mg/dL\nCreatinine: 1.0 mg/dL",
+  "truth": {
+   "Urine_Albumin": {
+    "value": 27.0,
+    "class": "normal"
+   },
+   "HDL": {
+    "value": 35.0,
+    "class": "low"
+   },
+   "LDL": {
+    "value": 139.0,
+    "class": "borderline"
+   },
+   "HbA1c": {
+    "value": 8.4,
+    "class": "diabetes_range"
+   },
+   "Triglycerides": {
+    "value": 130.0,
+    "class": "normal"
+   },
+   "RBG": {
+    "value": 125.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "FBG": {
+    "value": 224.0,
+    "class": "diabetes_range"
+   },
+   "Serum_Creatinine": {
+    "value": 1.0,
+    "class": "normal"
+   }
+  }
+ },
+ {
+  "id": 38,
+  "text": "Laboratory Report - Sample 038\nDate: 2026-06-23\n\nHDL-C | 46 | mg/dL | > 40\nRandom Glucose | 122 | mg/dL | < 140\nLDL-C | 92 | mg/dL | < 100\nTriglycerides | 102 | mg/dL | < 150\nCreatinine | 2.9 | mg/dL | 0.6 - 1.3\nHbA1c | 6.3 | % | 4.0 - 5.6",
+  "truth": {
+   "HDL": {
+    "value": 46.0,
+    "class": "acceptable"
+   },
+   "RBG": {
+    "value": 122.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "LDL": {
+    "value": 92.0,
+    "class": "optimal"
+   },
+   "Triglycerides": {
+    "value": 102.0,
+    "class": "normal"
+   },
+   "Serum_Creatinine": {
+    "value": 2.9,
+    "class": "elevated"
+   },
+   "HbA1c": {
+    "value": 6.3,
+    "class": "prediabetes_range"
+   }
+  }
+ },
+ {
+  "id": 39,
+  "text": "Laboratory Report - Sample 039\nDate: 2026-06-26\n\nGlycated Haemoglobin (HbA1c): 4.7 %\nUrine Albumin: 16.0 mg/g\nFasting Blood Glucose (FBG): 84 mg/dL\nSerum Creatinine: 1.8 mg/dL",
+  "truth": {
+   "HbA1c": {
+    "value": 4.7,
+    "class": "normal"
+   },
+   "Urine_Albumin": {
+    "value": 16.0,
+    "class": "normal"
+   },
+   "FBG": {
+    "value": 84.0,
+    "class": "normal"
+   },
+   "Serum_Creatinine": {
+    "value": 1.8,
+    "class": "elevated"
+   }
+  }
+ },
+ {
+  "id": 40,
+  "text": "Laboratory Report - Sample 040\nDate: 2026-04-25\n\nLDL Cholesterol    79 mg/dL\nHbA1c    6.4 %\nUrine Albumin    123 mg/g\nSerum Creatinine    1.2 mg/dL\nHDL    36 mg/dL\nRandom Glucose    155 mg/dL\nTG    99 mg/dL",
+  "truth": {
+   "LDL": {
+    "value": 79.0,
+    "class": "optimal"
+   },
+   "HbA1c": {
+    "value": 6.4,
+    "class": "prediabetes_range"
+   },
+   "Urine_Albumin": {
+    "value": 123.0,
+    "class": "microalbuminuria"
+   },
+   "Serum_Creatinine": {
+    "value": 1.2,
+    "class": "normal"
+   },
+   "HDL": {
+    "value": 36.0,
+    "class": "low"
+   },
+   "RBG": {
+    "value": 155.0,
+    "class": "below_diagnostic_threshold"
+   },
+   "Triglycerides": {
+    "value": 99.0,
+    "class": "normal"
+   }
+  }
+ }
+]

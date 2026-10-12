@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "trained_at": "2026-10-11T18:20:47+00:00",
+  "signature": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "chunk_size": 800,
+    "chunk_overlap": 120
+  },
+  "n_chunks": 1189,
+  "files": {
+    "9789241515702-eng.pdf": {
+      "size": 1014661,
+      "mtime_ns": 1791735834887650400,
+      "sha256": "1aafed8dbb3b23411edbae4b2bd2c6b557630b98a6068997f71fc450582b3557",
+      "chunks": 113
+    },
+    "dc25s001.pdf": {
+      "size": 336542,
+      "mtime_ns": 1791733862359480000,
+      "sha256": "b36bcc65427005c21bacff68f077451a99983eee59a1526324d1f9205b1f9a44",
+      "chunks": 83
+    },
+    "dc25S002.pdf": {
+      "size": 575969,
+      "mtime_ns": 1791735716031130100,
+      "sha256": "92db51cdd330e31ce6bc6e61c41edc184da050181dd2c9704d1e94f2fc7300c6",
+      "chunks": 155
+    },
+    "dc25s006.pdf": {
+      "size": 2922069,
+      "mtime_ns": 1791733997428731800,
+      "sha256": "2d6c6d26cf7712b2ec6ade37e6b1d8d29c1d6afe590e49301efe7d7ffb46a60a",
+      "chunks": 111
+    },
+    "dc25s009.pdf": {
+      "size": 1875409,
+      "mtime_ns": 1791735535874331400,
+      "sha256": "e9a9f7a359522b37af6ab99b20a5cb692b58f210117aaa68e26e8a9b1df6b282",
+      "chunks": 166
+    },
+    "dc25s010.pdf": {
+      "size": 1206777,
+      "mtime_ns": 1791734176018097900,
+      "sha256": "e6cd59d546bfe6068af47c6031fad8a122d3dc61285c53da21c4410b6ddbe7d8",
+      "chunks": 220
+    },
+    "dc25s011.pdf": {
+      "size": 730189,
+      "mtime_ns": 1791734181325832600,
+      "sha256": "c6502b65680f7979e7208595666d5294d89d0fcd1c2cbec4cc641760d77d7f99",
+      "chunks": 86
+    },
+    "dsa664.pdf": {
+      "size": 860896,
+      "mtime_ns": 1791733730954892200,
+      "sha256": "10bcb46d719aacef8657f100116a8f975f5254ec2358f4b7ee605a66ae14a1b9",
+      "chunks": 255
+    }
+  }
+}
